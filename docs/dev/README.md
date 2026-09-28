@@ -1,8 +1,4 @@
-# Dev — OpenEvo SEED Runtime
-
-CI mode: **SPECIALIZED_CI**
-
-This repository is an identity/documentation surface for a public GHCR runtime artifact. It is not the scientific experiment repository and not the live server authority.
+# Dev documentation
 
 - [LATEST.md](LATEST.md) — current development direction.
 - [DESIGN.md](DESIGN.md) — why CI validates manifest identity instead of rebuilding the image.
