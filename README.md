@@ -28,6 +28,10 @@ docker pull ghcr.io/mykcs/openevo-seed-runtime:2026.08.18-h136
 docker pull ghcr.io/mykcs/openevo-seed-runtime@sha256:0144b2a3b5856a08f7e2d92fc9ab937580549d78c6d8bdd46705edf45fc4412a
 ```
 
+### 开发与 CI
+
+运行环境身份检查与 CI 边界见 [`docs/dev/README.md`](docs/dev/README.md)。CI 只检查公开 GHCR tag → digest 身份，不下载镜像层，也不运行实验。
+
 ### 维护约定
 
 新版本使用日期和实验标识作为 tag；只在运行环境有实质变化时发布。模型权重和
