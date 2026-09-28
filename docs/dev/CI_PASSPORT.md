@@ -17,4 +17,4 @@ CI mode: `SPECIALIZED_CI`
 - secrets: none
 - scientific work: none
 
-Before making the check required, obtain an exact-head successful hosted run proving the public GHCR tag resolves to the README digest.
+The pull-request workflow checks out the exact PR head SHA before reading the public GHCR manifest. Before making the check required, obtain a successful hosted run proving that this raw candidate commit's public GHCR tag resolves to the README digest.
