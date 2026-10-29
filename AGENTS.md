@@ -1,5 +1,7 @@
 # Agent operating rules
 
+Shared operating policy: follow [the central AGENTS.md](https://github.com/mykcs/.agents/blob/main/AGENTS.md) and [Capability Routing](https://github.com/mykcs/.agents/blob/main/docs/dev/CAPABILITY_ROUTING.md) for authorization reuse, tool fallbacks and engineering completion. This repository retains its scoped scientific, resource, privacy and release requirements.
+
 This root `AGENTS.md` is the **unique repository-root Agent bootstrap authority** and the first repository file an Agent reads.
 
 Project knowledge map: [`docs/agents/README.md`](docs/agents/README.md).
