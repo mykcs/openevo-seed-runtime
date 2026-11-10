@@ -18,3 +18,7 @@ This repository has no website Production role. Changes to `AGENTS.md` or reposi
 For repository development and CI work, read [`docs/dev/README.md`](docs/dev/README.md) and [`docs/dev/LATEST.md`](docs/dev/LATEST.md). For artifact-identity or provider changes, also read [`docs/dev/DESIGN.md`](docs/dev/DESIGN.md) and [`docs/dev/CI_PASSPORT.md`](docs/dev/CI_PASSPORT.md).
 
 CI mode is `SPECIALIZED_CI`: hosted checks may inspect the public GHCR manifest identity but must not pull large layers, publish packages, run scientific tasks, or gain live-server authority.
+
+## Current | 多 Agent 接手
+
+新 Agent 先读 [Current](docs/agents/current/README.md)，重新核对 GitHub 的实时 Issues、PR 和默认分支；Current 只负责恢复上下文，不取代现有 Wish/Dev、科研或发布规则。
